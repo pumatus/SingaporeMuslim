@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/logo_size_small_notification"
+        android:layout_height="@dimen/logo_size_small_notification"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/padding_small_notification"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:textColor="#888"
+            android:textSize="@dimen/text_size_small_notification_title"
+            tools:text="Al-Baqar" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small_notification_title_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:textColor="#888"
+            android:textSize="@dimen/text_size_small_notification_content"
+            tools:text="Verse 120/200" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ib_prev"
+        android:layout_width="@dimen/btn_size_notification"
+        android:layout_height="@dimen/btn_size_notification"
+        android:layout_marginRight="@dimen/padding_small_notification"
+        android:background="#0FFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_btn_notification_previous"
+        app:srcCompat="@drawable/ic_btn_notification_previous" />
+
+    <ImageButton
+        android:id="@+id/ib_play"
+        android:layout_width="@dimen/btn_size_notification"
+        android:layout_height="@dimen/btn_size_notification"
+        android:layout_marginRight="@dimen/padding_small_notification"
+        android:background="#0FFF"
+        android:scaleType="fitCenter"
+        tools:src="@drawable/ic_btn_notification_play" />
+
+    <ImageButton
+        android:id="@+id/ib_next"
+        android:layout_width="@dimen/btn_size_notification"
+        android:layout_height="@dimen/btn_size_notification"
+        android:layout_marginRight="@dimen/padding_small_notification"
+        android:background="#0FFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_btn_notification_next"
+        app:srcCompat="@drawable/ic_btn_notification_next" />
+
+    <ImageButton
+        android:id="@+id/ib_close"
+        android:layout_width="@dimen/btn_size_notification"
+        android:layout_height="@dimen/btn_size_notification"
+        android:layout_marginRight="@dimen/padding_small_notification"
+        android:background="#0FFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_btn_notification_close"
+        app:srcCompat="@drawable/ic_btn_notification_close" />
+</LinearLayout>

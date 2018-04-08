@@ -1,0 +1,173 @@
+<resources>
+    <string name="locate_me">Locate Me</string>
+    <string name="select_manually">Select Location Manually</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+
+    <string name="msg_cannot_determine_location">Your location cannot be found</string>
+    <string name="msg_no_compass_feature">No compass available on this device</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="change_location">Do you want to change location for accurate prayer times?</string>
+
+    <string name="icon">icon</string>
+    <string name="locating">Searching your location</string>
+    <string name="select_location">Select Location</string>
+    <string name="select_your_location">Select your location</string>
+    <string name="no_location_with_services">Select your location for accurate prayer times</string>
+    <string name="select">Searching…</string>
+    <string name="prayer_time_notification">%1$s time in %2$s at %3$s</string>
+
+    <string name="selected_place">Last Selected Place:</string>
+    <string name="history">History</string>
+    <string name="clear_history">Clear History</string>
+    <string name="please_enter_address">Search your location…</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="search_failed">Search failed. Please try again.</string>
+    <string name="no_result_found">No result found. Please try again.</string>
+    <string name="try_again">Try Again</string>
+    <string name="setting">Settings</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="transliteration">Transliteration</string>
+    <string name="audio_text_sync">Audio Text Sync</string>
+
+    <string name="IMPORTANT_DATE_DESCRIPTION_MU1">Al-Hijra, Islamic New Year</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_MU10">Day of Ashura</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_RAJ27">Isra and Mi\'raj</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_SY15">Nisfu Shaban</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_RA1">First Day of Fasting</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_RAM27">Nuzul Al-Quran</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_SH1">Eid al-Fitr, Festival of Breaking the Fast</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_DH8">Hajj Starting Day</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_DH9">Day of Arafa</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_DH10">Eid al-Adha</string>
+
+    <string name="app_name">Muslim Ummah</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="next">Next</string>
+
+    <string name="off">Off</string>
+    <string name="mute">Mute</string>
+    <string name="sound">Sound</string>
+    <string name="alarm_nomal">Adhan (Mecca)</string>
+    <string name="alarm_soft">Adhan (Medina)</string>
+
+    <string name="locale_language_name_en">English</string>
+    <string name="locale_language_name_bn">Bengali</string>
+    <string name="locale_language_name_fr">French</string>
+    <string name="locale_language_name_hi">Hindi</string>
+    <string name="locale_language_name_in">Indonesian</string>
+    <string name="locale_language_name_ms">Malay</string>
+    <string name="locale_language_name_ru">Russian</string>
+    <string name="locale_language_name_tr">Turkish</string>
+    <string name="locale_language_name_ur">Urdu</string>
+    <string name="locale_language_name">@string/locale_language_name_en</string>
+
+    <string name="locale_language_code_en">en</string>
+    <string name="locale_language_code_bn">bn</string>
+    <string name="locale_language_code_fr">fr</string>
+    <string name="locale_language_code_hi">hi</string>
+    <string name="locale_language_code_in">in</string>
+    <string name="locale_language_code_ms">ms</string>
+    <string name="locale_language_code_ru">ru</string>
+    <string name="locale_language_code_tr">tr</string>
+    <string name="locale_language_code_ur">ur</string>
+    <string name="locale_language_code">@string/locale_language_code_en</string>
+    <string name="north">N</string>
+    <string name="east">E</string>
+    <string name="south">S</string>
+    <string name="west">W</string>
+    <string name="qibla_direction">Wave your phone in a figure 8 pattern to get accurate Qibla direction</string>
+
+    <string-array name="calendar_week">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+    <string name="default_time">--:--</string>
+
+
+    <string name="downloading">Downloading…</string>
+    <string name="download_failed">Download failed</string>
+    <string name="download_failed_toast">Download Failed</string>
+    <string name="january">January</string>
+    <string name="sunday_short">S</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="muharram">Muharram</string>
+    <string name="safar">Safar</string>
+    <string name="rabi_al_awwal">Rabi Al-Awwal</string>
+    <string name="rabi_al_akhar">Rabi Al-Akhar</string>
+    <string name="jumada_al_awwal">Jumada Al-Awwal</string>
+    <string name="jumada_al_akhirah">Jumada Al-Akhirah</string>
+    <string name="rajab">Rajab</string>
+    <string name="shaban">Shaban</string>
+    <string name="ramadan">Ramadan</string>
+    <string name="shawwal">Shawwal</string>
+    <string name="dhul_qadah">Dhul Qadah</string>
+    <string name="dhul_hijjah">Dhul Hijjah</string>
+    <string name="monday_short">M</string>
+    <string name="tuesday_short">T</string>
+    <string name="wednesday_short">W</string>
+    <string name="thursday_short">T</string>
+    <string name="friday_short">F</string>
+    <string name="saturday_short">S</string>
+    <string name="fajr">Fajr</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">Isha</string>
+    <string name="now">NOW</string>
+    <string name="location">Location</string>
+    <string name="quran">Quran</string>
+    <string name="last_read_position">Last read position</string>
+    <string name="translation">Translation</string>
+    <string name="locale_language_name_none">None</string>
+    <string name="verse">Verse</string>
+    <string name="downloading_audio">Downloading audio…</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="processing">Processing…</string>
+    <string name="no_bookmarked_verses">No Bookmarked Verses</string>
+    <string name="north_east">NE</string>
+    <string name="south_east">SE</string>
+    <string name="south_west">SW</string>
+    <string name="north_west">NW</string>
+    <string name="prayers">Prayers</string>
+    <string name="qibla">Qibla</string>
+
+
+    <string name="share_pray_card_1">Check out prayer times for %1$s %2$s at Muslim Ummah %3$s #MuslimUmmah</string>
+    <string name="share_pray_card_2">Check out prayer times for %1$s %2$s: %3$s %4$s #MuslimUmmah</string>
+    <string name="share_verse_day_1">Read this beautiful quote from the Holy Quran at %1$s #MuslimUmmah</string>
+    <string name="share_verse_day_2">Read this beautiful quote from the Holy Quran at %1$s #MuslimUmmah</string>
+    <string name="share_photo_day_1">%1$s %2$s #MuslimUmmah</string>
+    <string name="share_photo_day_2">Check out this beautiful photo at Muslim Ummah. %1$s %2$s #MuslimUmmah</string>
+    <string name="share_single_verse_1">Check out this amazing feature at Muslim Ummah %1$s #MuslimUmmah</string>
+    <string name="share_single_verse_2">Check out this amazing feature at Muslim Ummah %1$s #MuslimUmmah</string>
+    <string name="share_single_word_1">Come join me to learn Arabic at Muslim Ummah %1$s #MuslimUmmah</string>
+    <string name="share_single_word_2">Check out this amazing feature at Muslim Ummah %1$s #MuslimUmmah</string>
+
+
+    <string name="no_apps_handle">No apps can handle this</string>
+    <string name="loading">Loading…</string>
+    <string name="share_failed">Share failed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

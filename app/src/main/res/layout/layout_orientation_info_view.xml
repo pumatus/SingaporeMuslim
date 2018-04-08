@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="#003A03">
+
+    <View
+        android:id="@+id/view_guideline"
+        android:layout_width="14dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_angle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/view_guideline"
+        android:maxLines="1"
+        android:minLines="1"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        tools:text="278°" />
+
+    <TextView
+        android:id="@+id/tv_orientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/view_guideline"
+        android:maxLines="1"
+        android:minLines="1"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        tools:text="NW" />
+
+    <TextView
+        android:id="@+id/tv_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_angle"
+        android:layout_marginTop="9dp"
+        android:layout_toLeftOf="@id/view_guideline"
+        android:maxLines="1"
+        android:minLines="1"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        tools:text="39° 55' 44&quot; N" />
+
+    <TextView
+        android:id="@+id/tv_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_orientation"
+        android:layout_marginTop="9dp"
+        android:layout_toRightOf="@id/view_guideline"
+        android:maxLines="1"
+        android:minLines="1"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        tools:text="116° 23' 18&quot; E" />
+</merge>

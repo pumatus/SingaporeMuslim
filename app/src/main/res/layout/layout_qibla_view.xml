@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/bg_qibla" />
+
+    <ImageView
+        android:id="@+id/iv_north_indicator"
+        android:layout_width="2dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/iv_compass"
+        android:layout_centerHorizontal="true"
+        android:src="@color/white" />
+
+    <ImageView
+        android:id="@+id/iv_compass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_compass" />
+
+    <ImageView
+        android:id="@+id/iv_mecca_pointer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_pointer" />
+
+    <co.muslimummah.android.module.qibla.view.QiblaTextView
+        android:id="@+id/qtv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/iv_compass"
+        android:layout_alignLeft="@+id/iv_compass"
+        android:layout_alignRight="@+id/iv_compass"
+        android:layout_alignTop="@+id/iv_compass" />
+</RelativeLayout>

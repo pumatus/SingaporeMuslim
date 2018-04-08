@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical"
+              android:paddingBottom="16dp"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp"
+              android:paddingTop="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp">
+
+        <LinearLayout
+            android:id="@+id/ll_verse_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_chapter_transliteration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                tools:text="AL-BAQARAH"/>
+
+            <TextView
+                android:id="@+id/tv_chapter_verse_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@drawable/bg_grey_solid_round_corner"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingTop="0.5dp"
+                android:textSize="11dp"
+                tools:text="2:1"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ib_bookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/selector_btn_bookmark"
+            app:srcCompat="@drawable/selector_btn_bookmark"/>
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_toLeftOf="@id/ib_bookmark"
+            android:src="@drawable/ic_btn_play_small"
+            app:srcCompat="@drawable/ic_btn_play_small"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:id="@+id/iv_share"
+            android:layout_toLeftOf="@id/iv_play"
+            android:src="@drawable/ic_share_g"/>
+    </RelativeLayout>
+
+    <co.muslimummah.android.module.quran.view.VerseViewFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <co.muslimummah.android.module.quran.view.SelectableTextView
+            android:id="@+id/tv_original"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            tools:text="الَّذينَ يُؤمِنونَ بِالغَيبِ وَيُقيمونَ  الصَّلاةَ وَمِمّا رَزَقناهُم يُنفِقونَ"/>
+
+        <co.muslimummah.android.module.quran.view.VerseView
+            android:id="@+id/verse_original"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bold="false"
+            app:karaoke_cover_color="@color/green_secondary"
+            app:karaoke_nomal_color="@color/grey_secondary"
+            app:lineSpacingExtra="2.5dp"
+            app:nomal_text_color="@color/black"
+            app:text_size="30dp"/>
+    </co.muslimummah.android.module.quran.view.VerseViewFrameLayout>
+
+    <View
+        android:id="@+id/view_padding"
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <FrameLayout
+        android:id="@+id/fl_transliteration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_transliteration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/green_secondary"
+            android:textSize="15dp"
+            tools:text="alladhīna yuʾminūna bi-l-ghaybi wa-yuqīmūna ṣ-ṣalāta wa-mimmā razaqnāhum yunfiqūna"/>
+
+        <co.muslimummah.android.module.quran.view.VerseView
+            android:id="@+id/verse_transliteration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bold="false"
+            app:karaoke_cover_color="@color/green_secondary"
+            app:karaoke_nomal_color="@color/grey_secondary"
+            app:lineSpacingExtra="4dp"
+            app:nomal_text_color="@color/green_secondary"
+            app:text_size="15dp"/>
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tv_translation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:lineSpacingMultiplier="1.2"
+        android:textColor="@color/grey_dark"
+        android:textSize="15dp"
+        tools:text="Who believe in the Unseen, and maintain the prayer, and spend1 out of what We have provided for them;"/>
+</LinearLayout>

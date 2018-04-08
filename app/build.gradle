@@ -1,0 +1,142 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        // These docs use an open ended version so that our plugin
+        // can be updated quickly in response to Android tooling updates
+
+        // We recommend changing it to the latest version from our changelog:
+        // https://docs.fabric.io/android/changelog.html#fabric-gradle-plugin
+        classpath 'io.fabric.tools:gradle:1.22.2'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.android["buildToolsVersion"]
+
+    defaultConfig {
+        applicationId "com.muslim.android"
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode 4
+        versionName "1.1.1"
+    }
+    signingConfigs {
+        debug {
+            storeFile file("../co.muslimummah.debug.keystore.jks")
+            storePassword "advanceadmin"
+            keyAlias "muslimummah.debug"
+            keyPassword "advanceadmin"
+        }
+        release {
+            storeFile file("../co.muslimummah.keystore.jks")
+            storePassword "advanceadmin"
+            keyAlias "muslimummah"
+            keyPassword "advanceadmin"
+        }
+    }
+    buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+            debuggable true
+            minifyEnabled false
+            multiDexEnabled true
+            signingConfig signingConfigs.debug
+
+            buildConfigField "String", "BASE_URL", "\"${DevEndpointUrl}\""
+            buildConfigField "String", "MEDIA_BASE_URL", "\"${DevMediapointUrl}\""
+        }
+        release {
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            multiDexEnabled true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            buildConfigField "String", "BASE_URL", "\"${ProdEndpointUrl}\""
+            buildConfigField "String", "MEDIA_BASE_URL", "\"${ProdMediapointUrl}\""
+        }
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+}
+
+greendao {
+    schemaVersion 3
+}
+
+dependencies {
+
+    //    compile project(':calendar')
+    compile rootProject.ext.dependencies["support-v7-appcompat"]
+    compile rootProject.ext.dependencies["support-constraint-layout"]
+    compile rootProject.ext.dependencies["support-v7-recyclerview"]
+    compile rootProject.ext.dependencies["support-v4-fragment"]
+    compile rootProject.ext.dependencies["support-design"]
+    compile rootProject.ext.dependencies["support-v7-cardview"]
+    compile rootProject.ext.dependencies["support-multidex"]
+    compile rootProject.ext.dependencies["firebase-core"]
+    compile rootProject.ext.dependencies["firebase-messaging"]
+    compile rootProject.ext.dependencies["firebase-crash"]
+    compile rootProject.ext.dependencies["firebase-config"]
+    compile rootProject.ext.dependencies["firebase-storage"]
+    compile rootProject.ext.dependencies["firebase-invites"]
+    compile rootProject.ext.dependencies["play-services-analytics"]
+    compile rootProject.ext.dependencies["play-services-location"]
+    compile rootProject.ext.dependencies["play-services-places"]
+    compile rootProject.ext.dependencies["butterknife"]
+    annotationProcessor rootProject.ext.dependencies["butterknife-compiler"]
+    compile rootProject.ext.dependencies["timber"]
+    compile rootProject.ext.dependencies["okhttp3"]
+    compile rootProject.ext.dependencies["okhttp3-logging-interceptor"]
+    compile rootProject.ext.dependencies["retrofit2"]
+    compile rootProject.ext.dependencies["retrofit2-converter-gson"]
+    compile rootProject.ext.dependencies["retrofit2-adapter-rxjava2"]
+    compile rootProject.ext.dependencies["rxjava2"]
+    compile rootProject.ext.dependencies["rxandroid2"]
+    compile(rootProject.ext.dependencies["crashlytics"]) {
+        transitive = true
+    }
+    compile rootProject.ext.dependencies["gson"]
+    compile rootProject.ext.dependencies["timber"]
+    compile rootProject.ext.dependencies["material-dialogs"]
+    provided rootProject.ext.dependencies["lombok"]
+    compile rootProject.ext.dependencies["gson"]
+    compile rootProject.ext.dependencies["timber"]
+    compile rootProject.ext.dependencies["disk-lru-cache"]
+    compile rootProject.ext.dependencies["material-dialogs"]
+    compile(rootProject.ext.dependencies["rxlifecycle"]) {
+        //fix build error "duplicate entry: javax/annotation/CheckForNull.class"
+        exclude module: 'jsr305';
+    }
+    compile rootProject.ext.dependencies["green-dao"]
+    //This is for CSV parser. It is almost the fastest. (https://github.com/uniVocity/csv-parsers-comparison)
+    compile 'com.univocity:univocity-parsers:2.5.2'
+    compile 'net.danlew:android.joda:2.9.9'
+    compile 'com.github.msarhan:ummalqura-calendar:1.1.7'
+    compile 'com.facebook.android:facebook-android-sdk:4.26.0'
+    compile 'org.slf4j:slf4j-android:1.7.21'
+    compile 'moe.banana:toast-compat:1.0.5'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.github.bumptech.glide:glide:4.2.0'
+    compile 'com.github.bumptech.glide:okhttp3-integration:4.2.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.2.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

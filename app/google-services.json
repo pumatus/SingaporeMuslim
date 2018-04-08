@@ -1,0 +1,249 @@
+{
+  "project_info": {
+    "project_number": "118192731157",
+    "firebase_url": "https://muslim-ummah-a2b73.firebaseio.com",
+    "project_id": "muslim-ummah-a2b73",
+    "storage_bucket": "muslim-ummah-a2b73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118192731157:android:835a9545efdabce4",
+        "android_client_info": {
+          "package_name": "co.muslimummah.android.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118192731157-mhnscas2ocdriu4l33v2ou0n1su9m93t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.muslimummah.android.debug",
+            "certificate_hash": "3427f35b1ebfbe20784671fb98969fccabdf7594"
+          }
+        },
+        {
+          "client_id": "118192731157-uges1aqbsg4i47jg6rlrnj8k1in6gc7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuRIT0uJMjMeHIzQvD7gdfw6CbT5emWNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118192731157-uges1aqbsg4i47jg6rlrnj8k1in6gc7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118192731157:android:29a37e6b0f11388d",
+        "android_client_info": {
+          "package_name": "com.example.zhounan.fcmtestapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118192731157-nsj8dvvqf8rveu7ni7b0sg90ggdr58ef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zhounan.fcmtestapplication",
+            "certificate_hash": "afca662b00bfbcc25e770815207782b0de93dd06"
+          }
+        },
+        {
+          "client_id": "118192731157-uges1aqbsg4i47jg6rlrnj8k1in6gc7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuRIT0uJMjMeHIzQvD7gdfw6CbT5emWNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118192731157-uges1aqbsg4i47jg6rlrnj8k1in6gc7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118192731157:android:0d9dfb7015a5c5c9",
+        "android_client_info": {
+          "package_name": "com.google.samples.quickstart.admobexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118192731157-uges1aqbsg4i47jg6rlrnj8k1in6gc7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuRIT0uJMjMeHIzQvD7gdfw6CbT5emWNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118192731157:android:5920de3503a2d18c",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118192731157-uges1aqbsg4i47jg6rlrnj8k1in6gc7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuRIT0uJMjMeHIzQvD7gdfw6CbT5emWNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118192731157:android:6e99d0b5561c6e62",
+        "android_client_info": {
+          "package_name": "com.muslim.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118192731157-i2pjcgm6g5uqt2o3g3uqsh41t2ibanks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muslim.android",
+            "certificate_hash": "b629673e894b551507ec958ce978f447e27f6713"
+          }
+        },
+        {
+          "client_id": "118192731157-uges1aqbsg4i47jg6rlrnj8k1in6gc7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuRIT0uJMjMeHIzQvD7gdfw6CbT5emWNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118192731157-uges1aqbsg4i47jg6rlrnj8k1in6gc7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118192731157:android:044e6a573c8051ac",
+        "android_client_info": {
+          "package_name": "com.muslim.android.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118192731157-p6jvt06e7csccd5krca2fnj2ad167609.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muslim.android.debug",
+            "certificate_hash": "3427f35b1ebfbe20784671fb98969fccabdf7594"
+          }
+        },
+        {
+          "client_id": "118192731157-uges1aqbsg4i47jg6rlrnj8k1in6gc7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuRIT0uJMjMeHIzQvD7gdfw6CbT5emWNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118192731157-uges1aqbsg4i47jg6rlrnj8k1in6gc7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

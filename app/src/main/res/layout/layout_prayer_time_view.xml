@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/rl_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl_prayer"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+
+            <ImageView
+                android:id="@+id/iv_prayer_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="16dp"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/ic_fajr_gray" />
+
+            <TextView
+                android:id="@+id/tv_prayer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:gravity="center"
+                android:text="Fajr"
+                android:textColor="#999999"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_prayer_icon"
+                android:layout_toEndOf="@+id/iv_prayer_icon" />
+
+            <TextView
+                android:id="@+id/tv_prayer_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_prayer_alarm"
+                android:layout_toStartOf="@+id/iv_prayer_alarm"
+                android:gravity="center"
+                android:text="@string/default_time"
+                android:textColor="#BBBBBB"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/iv_prayer_alarm"
+                android:layout_width="58dp"
+                android:layout_height="48dp"
+                android:paddingLeft="@dimen/space_14"
+                android:paddingRight="@dimen/space_16"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:tag="1"
+                app:srcCompat="@drawable/ic_icon_mute" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_prayer_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="72dp"
+            android:layout_below="@+id/rl_prayer"
+            android:textColor="#101010"
+            android:textSize="12sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</merge>

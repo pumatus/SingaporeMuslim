@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <View
+        android:id="@+id/view_fake_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/dl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_content"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <View
+                android:id="@+id/v_divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey_tertiary"/>
+
+            <RadioGroup
+                android:id="@+id/main_navi_radiogrop"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/main_navi_Prayer"
+                    style="@style/RadioButtonBottom"
+                    android:drawableTop="@drawable/selector_tab_image_prayer"
+                    android:text="@string/prayers"/>
+
+                <RadioButton
+                    android:id="@+id/main_navi_Quran"
+                    style="@style/RadioButtonBottom"
+                    android:drawableTop="@drawable/selector_tab_image_quran"
+                    android:text="@string/quran"/>
+
+                <RadioButton
+                    android:id="@+id/main_navi_Qibla"
+                    style="@style/RadioButtonBottom"
+                    android:drawableTop="@drawable/selector_tab_image_qibla"
+                    android:text="@string/qibla"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <co.muslimummah.android.module.quran.view.QuranSettingView
+            android:id="@+id/qsv"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@color/grey_light"
+            android:clickable="true"/>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

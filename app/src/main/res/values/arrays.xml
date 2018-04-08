@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prayerNames">
+        <item>Fajr</item>
+        <item>Sunrise</item>
+        <item>Dhuhr</item>
+        <item>Asr</item>
+        <item>Maghrib</item>
+        <item>Isha</item>
+    </string-array>
+    <string-array name="stop_signs">
+        <item>Do not stop</item>
+        <item>Stop permitted if desired</item>
+        <item>Compulsory stop</item>
+        <item>Stop not advised</item>
+        <item>Stop advised</item>
+        <item>Stop at either point but not at both</item>
+        <item>Slight stop without taking breath</item>
+    </string-array>
+    <string-array name="stop_signs_bahasa">
+        <item>Dilarang berhenti</item>
+        <item>Boleh berhenti</item>
+        <item>Harus berhenti</item>
+        <item>Sebaiknya tidak berhenti</item>
+        <item>Disarankan untuk berhenti</item>
+        <item>Berhenti pada salah satu</item>
+        <item>Berhenti sejenak tanpa nafas</item>
+    </string-array>
+</resources>

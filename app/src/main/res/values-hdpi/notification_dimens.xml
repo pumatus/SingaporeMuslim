@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_size_small_notification">28dp</dimen>
+    <dimen name="text_size_small_notification_title">11dp</dimen>
+    <dimen name="text_size_small_notification_content">9dp</dimen>
+    <dimen name="padding_small_notification">6dp</dimen>
+    <dimen name="btn_size_notification">22dp</dimen>
+
+    <dimen name="height_large_notification">100dp</dimen>
+    <dimen name="margin_large_notification">12dp</dimen>
+    <dimen name="logo_size_large_notification">48dp</dimen>
+    <dimen name="text_size_large_notification_title">11dp</dimen>
+    <dimen name="text_size_large_notification_content">16dp</dimen>
+    <dimen name="margin_large_notification_title_content">0dp</dimen>
+    <dimen name="margin_small_notification_title_content">2dp</dimen>
+</resources>

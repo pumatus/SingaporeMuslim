@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_large_notification"
+        android:paddingTop="@dimen/margin_large_notification">
+
+        <ImageView
+            android:id="@+id/iv_app_icon"
+            android:layout_width="@dimen/logo_size_large_notification"
+            android:layout_height="@dimen/logo_size_large_notification"
+            android:layout_marginLeft="@dimen/margin_large_notification"
+            android:layout_marginRight="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launcher_notification_large"
+            tools:src="@drawable/ic_launcher_notification_large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/iv_app_icon"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/logo_size_large_notification"
+                android:layout_marginRight="12dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#888"
+                        android:textSize="@dimen/text_size_large_notification_title"
+                        tools:text="AI-Baqarah" />
+
+                    <TextView
+                        android:id="@+id/tv_bookmarks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:layout_toRightOf="@id/tv_title"
+                        android:background="@drawable/bg_grey_stroke_round_corner"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="3dp"
+                        android:paddingRight="3dp"
+                        android:paddingTop="3dp"
+                        android:text="Bookmarks"
+                        android:textColor="#888"
+                        android:textSize="9dp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_title"
+                        android:layout_marginTop="@dimen/margin_large_notification_title_content"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#888"
+                        android:textSize="@dimen/text_size_large_notification_content"
+                        tools:text="Verse 110/153" />
+                </RelativeLayout>
+
+                <ImageButton
+                    android:id="@+id/ib_close"
+                    android:layout_width="@dimen/btn_size_notification"
+                    android:layout_height="@dimen/btn_size_notification"
+                    android:layout_alignParentRight="true"
+                    android:background="#0FFF"
+                    android:src="@drawable/ic_btn_notification_close" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:src="#BDBDBD" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/ib_bookmark"
+                    android:layout_width="@dimen/btn_size_notification"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="16dp"
+                    android:background="#0FFF"
+                    android:src="@drawable/ic_btn_notification_bookmark_off"
+                    app:srcCompat="@drawable/ic_btn_notification_bookmark_off" />
+
+                <ImageButton
+                    android:id="@+id/ib_prev"
+                    android:layout_width="@dimen/btn_size_notification"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#0FFF"
+                    android:src="@drawable/ic_btn_notification_previous"
+                    app:srcCompat="@drawable/ic_btn_notification_previous" />
+
+                <ImageButton
+                    android:id="@+id/ib_play"
+                    android:layout_width="@dimen/btn_size_notification"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#0FFF"
+                    tools:src="@drawable/ic_btn_notification_play" />
+
+                <ImageButton
+                    android:id="@+id/ib_next"
+                    android:layout_width="@dimen/btn_size_notification"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#0FFF"
+                    android:src="@drawable/ic_btn_notification_next"
+                    app:srcCompat="@drawable/ic_btn_notification_next" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Muslim Ummah</string>
+    <string name="locale_language_name">@string/locale_language_name_in</string>
+    <string name="locale_language_code">@string/locale_language_code_in</string>
+
+    <string name="IMPORTANT_DATE_DESCRIPTION_DH10">Idul Adha</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_DH9">Hari Arafah</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_MU10">Hari Asyura</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_RA1">Hari Pertama Puasa</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_RAJ27">Isra Mi\'raj</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_RAM27">Malam Nuzul Quran</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_SH1">Idul Fitri</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_SY15">Malam Nisfu Sya\'ban</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_DH8">Hari Pertama Ibadah Haji</string>
+    <string name="IMPORTANT_DATE_DESCRIPTION_MU1">Tahun Baru Islam</string>
+    <string name="change_location">Apakah Anda ingin mengganti lokasi untuk waktu sholat yang akurat?</string>
+    <string name="btn_yes">Ya</string>
+    <string name="btn_no">Tidak</string>
+    <string name="clear_history">Kosongkan Riwayat</string>
+    <string name="default_time">--:--</string>
+    <string name="download_failed">Gagal mengunduh</string>
+    <string name="download_failed_toast">Gagal mengunduh</string>
+    <string name="downloading">Mengunduh…</string>
+    <string name="east">T</string>
+    <string name="history">Riwayat</string>
+    <string name="locale_language_name_bn">Benggala</string>
+    <string name="locale_language_name_en">Inggris</string>
+    <string name="locale_language_name_fr">Perancis</string>
+    <string name="locale_language_name_hi">India</string>
+    <string name="locale_language_name_in">Bahasa Indonesia</string>
+    <string name="locale_language_name_ms">Bahasa Melayu</string>
+    <string name="locale_language_name_ru">Rusia</string>
+    <string name="locale_language_name_tr">Turki</string>
+    <string name="locale_language_name_ur">Bahasa Urdu</string>
+    <string name="transliteration">Transliterasi</string>
+    <string name="locate_me">Lokasi Saya</string>
+    <string name="msg_no_compass_feature">Fitur kompas tidak didukung</string>
+    <string name="mute">Hening</string>
+    <string name="no_internet_connection">Tidak ada koneksi internet</string>
+    <string name="no_result_found">Tidak ditemukan. Mohon coba lagi.</string>
+    <string name="off">Mati</string>
+    <string name="no_location_with_services">Pilih lokasi untuk waktu sholat yang akurat</string>
+    <string name="north">U</string>
+    <string name="please_enter_address">Mencari lokasi Anda…</string>
+    <string name="prayer_time_notification">Waktu %1$s di %2$s pukul %3$s</string>
+    <string name="qibla_direction">Putar perangkat Anda membentuk angka \'8\' untuk arah kiblat yang akurat</string>
+    <string name="search_failed">Pencarian gagal. Mohon coba lagi.</string>
+    <string name="select">Mencari…</string>
+    <string name="select_location">Pilih Lokasi</string>
+    <string name="select_manually">Pilih Lokasi Secara Manual</string>
+    <string name="select_your_location">Pilih lokasi Anda</string>
+    <string name="setting">Pengaturan</string>
+    <string name="sound">Suara</string>
+
+    <string name="alarm_nomal">Adzan (Mekah)</string>
+    <string name="alarm_soft">Adzan (Madinah)</string>
+    <string name="ok">OK</string>
+
+
+    <string name="south">S</string>
+    <string name="west">B</string>
+    <string name="msg_cannot_determine_location">Lokasi Anda tidak dapat dideteksi</string>
+    <string name="audio_text_sync">Sinkronisasi Tulisan dan Suara</string>
+    <string name="january">Januari</string>
+    <string name="february">Februari</string>
+    <string name="march">Maret</string>
+    <string name="april">April</string>
+    <string name="august">Agustus</string>
+    <string name="december">Desember</string>
+    <string name="july">Juli</string>
+    <string name="june">Juni</string>
+    <string name="may">Mei</string>
+    <string name="november">November</string>
+    <string name="october">Oktober</string>
+    <string name="dhul_hijjah">Dzulhijjah</string>
+    <string name="dhul_qadah">Zulkaidah</string>
+    <string name="jumada_al_akhirah">Jumadil Akhir</string>
+    <string name="jumada_al_awwal">Jumadil Awal</string>
+    <string name="muharram">Muharram</string>
+    <string name="rabi_al_akhar">Rabiul Akhir</string>
+    <string name="rabi_al_awwal">Rabiul Awal</string>
+    <string name="rajab">Rajab</string>
+    <string name="ramadan">Ramadhan</string>
+    <string name="safar">Safar</string>
+    <string name="september">September</string>
+    <string name="shaban">Sha\'ban</string>
+    <string name="shawwal">Syawal</string>
+    <string name="sunday_short">M</string>
+    <string name="friday_short">J</string>
+    <string name="monday_short">S</string>
+    <string name="saturday_short">S</string>
+    <string name="thursday_short">K</string>
+    <string name="tuesday_short">S</string>
+    <string name="wednesday_short">R</string>
+    <string name="fajr">Subuh</string>
+    <string name="asr">Ashar</string>
+    <string name="dhuhr">Dzuhur</string>
+    <string name="isha">Isya</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="now">Sekarang</string>
+    <string name="try_again">Mohon coba lagi</string>
+    <string name="sunrise">Terbit</string>
+    <string name="bookmarks">Sudah ditandai</string>
+    <string name="location">Lokasi</string>
+    <string name="downloading_audio">Mengunduh suara…</string>
+    <string name="last_read_position">Terakhir dibaca</string>
+    <string name="locale_language_name_none">Dimatikan</string>
+    <string name="no_bookmarked_verses">Tidak ada ayat yang ditandai</string>
+    <string name="processing">Memuat…</string>
+    <string name="cancel">Batal</string>
+    <string name="quran">Al-Qur\'an</string>
+    <string name="verse">Ayat</string>
+    <string name="translation">Terjemahan</string>
+    <string name="north_east">TL</string>
+    <string name="north_west">BL</string>
+    <string name="south_east">TG</string>
+    <string name="south_west">BD</string>
+
+    <string-array name="calendar_week">
+        <item>M</item>
+        <item>S</item>
+        <item>S</item>
+        <item>R</item>
+        <item>K</item>
+        <item>J</item>
+        <item>S</item>
+    </string-array>
+
+    <string name="prayers">Sholat</string>
+    <string name="qibla">Kiblat</string>
+</resources>

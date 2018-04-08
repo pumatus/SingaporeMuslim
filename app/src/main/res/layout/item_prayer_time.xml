@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/rl_all"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/rl_impdate"
+              android:layout_marginTop="5dp"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView
+        android:id="@+id/fajr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_prayer_time_bg">
+
+    </co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#EEEEEE"/>
+
+
+    <co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView
+        android:id="@+id/sunrise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_prayer_time_bg">
+
+    </co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#EEEEEE"/>
+
+    <co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView
+        android:id="@+id/dhuhr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_prayer_time_bg">
+
+    </co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#EEEEEE"/>
+
+    <co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView
+        android:id="@+id/asr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_prayer_time_bg">
+
+    </co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#EEEEEE"/>
+
+    <co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView
+        android:id="@+id/maghrib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_prayer_time_bg">
+
+    </co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#EEEEEE"/>
+
+    <co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView
+        android:id="@+id/isha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_prayer_time_bg">
+    </co.muslimummah.android.module.prayertime.ui.view.PrayerTimeView>
+
+</LinearLayout>
